@@ -1,0 +1,45 @@
+{
+    "name": "@hedger/prettier-config",
+    "version": "1.0.0",
+    "description": "My personal Prettier configuration",
+    "repository": {
+        "type": "git",
+        "url": "git@github.com:nhedger/prettier-config.git"
+    },
+    "publishConfig": {
+        "access": "public"
+    },
+    "license": "MIT",
+    "sideEffects": false,
+    "type": "module",
+    "exports": {
+        ".": {
+            "import": "./dist/prettier.config.mjs",
+            "require": "./dist/prettier.config.cjs"
+        }
+    },
+    "main": "./dist/prettier.config.cjs",
+    "module": "./dist/prettier.config.mjs",
+    "files": [
+        "dist"
+    ],
+    "scripts": {
+        "build": "unbuild",
+        "prepack": "unbuild"
+    },
+    "keywords": [
+        "prettier",
+        "prettier-config"
+    ],
+    "author": {
+        "name": "Nicolas Hedger",
+        "email": "nicolas@hedger.ch"
+    },
+    "devDependencies": {
+        "@types/node": "^18.7.3",
+        "@types/prettier": "^2.7.0",
+        "prettier": "^2.7.1",
+        "semantic-release": "^19.0.3",
+        "unbuild": "^0.8.8"
+    }
+}
