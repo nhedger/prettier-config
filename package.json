@@ -1,6 +1,5 @@
 {
     "name": "@hedger/prettier-config",
-    "version": "1.0.0",
     "description": "My personal Prettier configuration",
     "repository": {
         "type": "git",
