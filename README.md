@@ -4,7 +4,7 @@ This package contains my personal [Prettier](https://prettier.io) configuration.
 
 ## Usage
 
-Create a new `.prettierrc.cjs` files with the following content.
+Create a new `.prettierrc.cjs` file with the following content.
 
 ```js
 module.exports = {
