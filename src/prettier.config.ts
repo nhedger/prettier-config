@@ -16,10 +16,10 @@ const config: Config = {
     // Add trailing commas to objects and array definitions
     trailingComma: "es5",
 
-    // Ensure bracket space in object literals
+    // Ensure bracket spacing in object literals
     bracketSpacing: true,
 
-    // Always add arroe function parentheses
+    // Always add arrow function parentheses
     arrowParens: "always",
 
     // Use line feeds only
