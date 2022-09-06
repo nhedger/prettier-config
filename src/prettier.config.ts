@@ -35,7 +35,7 @@ const config: Config = {
     semi: true,
 
     // Make the default print width a bit larger
-    printWidth: 100,
+    printWidth: 80,
 };
 
 export default config;
