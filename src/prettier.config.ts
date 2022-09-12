@@ -36,6 +36,16 @@ const config: Config = {
 
     // Make the default print width a bit larger
     printWidth: 80,
+
+    // Overrides
+    overrides: [
+        {
+            files: ["*.yml", ".yaml"],
+            options: {
+                tabWidth: 2
+            }
+        }
+    ]
 };
 
 export default config;
